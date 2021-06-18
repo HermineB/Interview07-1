@@ -1,0 +1,25 @@
+
+.d-flex {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+
+}
+
+#div1, #div2 {
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    border: 25px solid;
+}
+
+#div1 {
+    color: LightBlue;
+    border-color: Navy;
+}
+
+#div2 {
+    color: IndianRed;
+    border-color: Fuchsia;
+}
