@@ -51,14 +51,7 @@ function init() {
     function getCoordinates(time) {
         // TODO: implement body of this function
 
-        let dx = 0.8;
-        let dy = -1.0;
-        let r = ( Date.now() / 1000 ) - time;
-        let w2 = window.innerWidth/2;
-        let h2 = window.innerHeight/2;
-
-
-        return [dx, dy];
+        return [Math.sin(time), Math.cos(time)];
     }
 
     /**
